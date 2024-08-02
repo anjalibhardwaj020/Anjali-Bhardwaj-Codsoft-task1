@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2b3ab869c6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+           
+        </nav>
+        <div class="header-text">
+            <p>Web Developer</p>
+            <h1>Hi, I'm <span>Anjali</span><br>Bhardwaj From India</h1>
+        </div>
+    </div>
+    <!-----------About------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/aa.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> A web developer is responsible for creating and maintaining websites, ensuring they are functional, user-friendly, and visually appealing. They work with various programming languages like HTML, CSS, and JavaScript to build and optimize web applications.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('achievements')">Achievements</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-End Developer</span></li>
+                            <li><span>Employability Skills</span></li>
+                            <li><span>Advance Excel</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="achievements">
+                        <ul>
+                            <li><span>Full Stack Web Development (Delta)</span><br>By Apna College</li>
+                            <li><span>Employability Skills by Naandi Foundation</span><br>By Tech Mahindra</li>
+                            <li><span>CSRBOX : Data Visualization Internship</span><br> By IBM Skill Build (12/2023 - 01/2024)</li>
+                        </ul>
+                    </div>
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2024 Hindu Girls College, Sonipat</span><br>Bachelor of Computer Science</li>
+                            <li><span>2020 -2021 Tika Ram Model School, Sonipat (CBSE)</span><br>12th Class</li>
+                            <li><span>2018-2019 Tika Ram Model School, Sonipat (CBSE)</span><br>10th Class</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+          
+        </div>
+    </div>
+    <!-- --------------Services-------------> 
+     <div class="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Front-End Developer</h2>
+                    <p>A front-end developer specializes in creating the visual and interactive aspects of a website, ensuring a seamless and engaging user experience.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Employability Skills</h2>
+                    <p>Employability skills are essential competencies that enhance an individual's ability to secure and succeed in a job.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-regular fa-file-excel"></i>
+                    <h2>Advance Excel</h2>
+                    <p>Advanced Excel refers to the use of complex formulas, data analysis tools, macros, and VBA programming to enhance productivity and efficiency in managing and analyzing data within Excel.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+<!-- --------------Portfolio------------- -->
+<div id="portfolio">
+<div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="images/work-1.png">
+            <div class="layer">
+                <h3>Social Media App</h3>
+                <p>Social media platforms enable users to create, share, and interact with content and connect with others globally. </p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work-2.png">
+            <div class="layer">
+                <h3>Music App</h3>
+                <p> A music app allows users to stream, download, and manage music on their devices.</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work-3.png">
+            <div class="layer">
+                <h3>Online Shopping App</h3>
+                <p> Online shopping apps offer a convenient way to browse, purchase, and have products delivered right to your doorstep from your mobile device. </p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">See More</a>
+</div>
+</div>
+<!-- ---------------------Contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h class="sub-title">Contact Me</h>
+                    <p><i class="fa-solid fa-paper-plane"></i> anjalibhardwaj4998@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 0123456789</p>
+                    <div class="social-icons">
+                        <a href="https:/linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="images/Anjali's resume.pdf"download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name " required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea type="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&copy; 2024 Anjali. Make with <i class="fa-solid fa-heart"></i> Me</p>
+    </div>
+</div>
+<script>
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontents= document.getElementsByClassName("tab-contents");
+
+   function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab")
+   }
+   
+
+</script>
+</body>
+</html>
